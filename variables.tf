@@ -44,3 +44,9 @@ variable "ip_address" {
   type = string
   description = "IP address used to access Atlas cluster"
 }
+
+# AWS Region
+variable "aws_region" {
+  type = string
+  description = "AWS Region"
+}
